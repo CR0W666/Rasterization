@@ -29,8 +29,6 @@ public class ScreenManager {
     public boolean isFilledIn(Coordinate coordinate) { // TODO: Implement this
         Coordinate t0, t1, t2;
         ArrayList<Coordinate> ts = new ArrayList<>();
-        boolean result;
-        int A, sign, s, t;
 
         if (selectedPoints.size() == 3) {
 
